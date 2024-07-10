@@ -6,6 +6,8 @@ Angular: Utilizado para o desenvolvimento da interface do usuário, proporcionan
 
 API: Desenvolvida para gerenciar a comunicação entre o frontend e o backend, garantindo a integração eficiente dos dados.
 
+Firebase: Utilizado para a autenticação e armazenamento de dados.
+
 Sensores ESP: Usados para monitorar o nível de resíduos na lixeira em tempo real.
 
 # Funcionalidades
