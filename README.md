@@ -22,3 +22,12 @@ Gestão de Dados: O backend coleta e processa dados para análise posterior, aju
 /src: Código-fonte do frontend desenvolvido em Angular.
 
 /api: Código-fonte da API responsável pela comunicação entre o frontend e o backend.
+
+![Imagem6](https://github.com/mateusclaudino13/Intelix/assets/175061167/c343b81d-ee01-4c66-9c6a-6f0dc825c024)
+![Imagem5](https://github.com/mateusclaudino13/Intelix/assets/175061167/f70fc031-204b-44fe-8e81-48e14497b7e7)
+![Imagem4](https://github.com/mateusclaudino13/Intelix/assets/175061167/ac93fb69-76c0-4e68-ae14-4e1721e5c287)
+![Imagem3](https://github.com/mateusclaudino13/Intelix/assets/175061167/eb430750-ae01-4ee5-bc8c-2c3145372d66)
+![Imagem2](https://github.com/mateusclaudino13/Intelix/assets/175061167/5e24afce-cc59-4a88-bccc-1ccb1b3c20b8)
+![Imagem1](https://github.com/mateusclaudino13/Intelix/assets/175061167/e489525b-c1f0-45a8-8cec-83480f5a8177)
+![Captura de tela 2024-07-09 223552](https://github.com/mateusclaudino13/Intelix/assets/175061167/2960b227-01ce-423c-9018-384c5215ebe8)
+
