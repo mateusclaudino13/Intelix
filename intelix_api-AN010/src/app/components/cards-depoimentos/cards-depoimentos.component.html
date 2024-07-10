@@ -1,0 +1,27 @@
+<div class="container-depoimentos">
+  <div class="subtitulo">
+    <div class="line"></div>
+    Depoimentos
+  </div>
+  <h1 class="titulo">Depoimentos de Usuários</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-4" *ngFor="let depoimento of depoimentos">
+      <div class="card-depoimento shadow-lg">
+        <div class="imagem-texto-container">
+          <img [src]="depoimento.imagemUrl" class="custom-image rounded-circle" alt="Imagem de perfil">
+          <div class="texto-container">
+            <h5 class="nome-cliente">{{ depoimento.nome }}</h5>
+            <h6 class="subnome-cliente">{{ depoimento.subnome }}</h6>
+          </div>
+        </div>
+        <p class="texto-depoimento">{{ depoimento.texto }}</p>
+        <div class="estrelas">
+          <ng-container *ngFor="let star of [1, 2, 3, 4, 5]">
+            <i class="bi bi-star-fill" *ngIf="star <= depoimento.estrelas"></i>
+            <i class="bi bi-star" *ngIf="star > depoimento.estrelas"></i>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

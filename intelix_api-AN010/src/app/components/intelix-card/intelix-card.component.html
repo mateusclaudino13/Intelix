@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <div *ngIf="estados">
+    <div class="row">
+      <div *ngFor="let item of estados.data" class="col-md-4 mb-3">
+        <div class="card custom-card">
+          <div class="card-header custom-card-header">
+            <img src="assets/mapa.png" class="card-img-top" alt="Map Placeholder">
+          </div>
+          <div class="card-body custom-card-body">
+            <h5 class="card-title">{{ item.estado.nome || 'INTELIX' }} {{ item.docId }}</h5>
+            <div class="card-info">
+              <div><strong class="cor">ID:</strong> {{ item.docId }}</div>
+              <div><strong class="cor">Código:</strong> {{ item.estado.cod }}</div>
+              <div><strong class="cor">Endereço:</strong> {{ item.estado.endereco }}</div>
+              <div><strong class="cor">Container:</strong>
+                <span class="badge" [ngClass]="determinarClasseContainer(item.estado)">
+                  {{ item.estado.container ? 'Cheio' : 'Vazio' }}
+                </span>
+              </div>
+              <div><strong class="cor">Data da Criação:</strong> {{ item.estado.created_at | date: 'dd/MM/yyyy HH:mm:ss' }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="!estados">
+    <p>Carregando...</p>
+  </div>
+</div>

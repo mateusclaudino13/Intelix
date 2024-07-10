@@ -1,0 +1,23 @@
+<div class="titulo">
+  <div class="subtitulo">
+    <div class="line"></div>
+    Por que nos escolher?
+  </div>
+
+  <h2 class="titulo-principal">A MELHOR EXPERIÊNCIA</h2>
+</div>
+
+<div class="card-container">
+  <div class="card" *ngFor="let item of experienciaItens">
+    <div class="card-header">
+      <img [src]="item.icon" alt="Ícone">
+    </div>
+    <div class="card-body">
+      <h3 class="title1">{{ item.title }}</h3>
+      <p class="text1">{{ item.text }}</p>
+    </div>
+    <div class="card-footer">
+      <button class="ler-mais">Ler mais </button> <mat-icon>arrow_forward</mat-icon>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="criadores-container">
+  <div class="users-count">Criadores</div>
+  <div class="creators-row">
+    <div class="creators-container">
+      <!-- Primeira linha de cartões -->
+      <div class="creator-card" *ngFor="let creator of creators; let i = index">
+        <img [src]="creator.image" alt="{{ creator.name }}">
+        <div class="creator-info">
+          <h3>{{ creator.name }}</h3>
+          <p>{{ creator.role }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

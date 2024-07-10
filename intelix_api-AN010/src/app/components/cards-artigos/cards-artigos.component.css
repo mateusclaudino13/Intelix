@@ -1,0 +1,143 @@
+.card-artigos {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-artigos:hover {
+    transform: translateY(-5px);
+}
+
+.card-artigos .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.card-artigos .card-title {
+    min-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-artigos .card-text {
+    flex: 1;
+}
+
+.card-artigos .btn {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.ver-todos-btn {
+    width: 307px;
+    height: 72px;
+    margin: 20px auto;
+    background: #628A4C;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 2px;
+}
+
+.ver-todos-btn:hover {
+    border-radius: 16px;
+    border: 1px solid #628A4C;
+    background: #ffffff;
+    color: #628A4C;
+}
+
+.subtitulo {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-subtitle .author {
+    margin-right: auto;
+}
+
+.card-subtitle .date {
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.card-img-custom {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card-img-custom:hover {
+    transform: scale(1.05);
+}
+
+.card-subtitle mat-icon {
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+    color: #6c757d;
+}
+
+.btn mat-icon,
+.ver-todos-btn mat-icon,
+.btn span,
+.ver-todos-btn span {
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Inter";
+    margin-bottom: 10px;
+    margin-left: 100px;
+    opacity: 0.7;
+}
+
+.line {
+    width: 60px;
+    height: 5px;
+    background-color: #6e834a;
+    margin-right: 20px;
+}
+
+.text-center {
+    color: var(--Background-Color-Black, #1A2434);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.card-text-artigos {
+    color: var(--Background-Color-Black, #1A2434);
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.container {
+    margin-top: 50px;
+}

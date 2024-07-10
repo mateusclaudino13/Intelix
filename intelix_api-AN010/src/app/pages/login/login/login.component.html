@@ -1,0 +1,22 @@
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <img src="assets/logo.png" alt="Logo" class="logo">
+                <h2>Olá! Seja bem-vindo a Área do Servidor</h2>
+            </div>
+            <form class="login-form" (ngSubmit)="login()">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" [(ngModel)]="email" placeholder="email@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" [(ngModel)]="password"
+                        placeholder="Digite sua senha">
+                </div>
+                <button type="submit" class="login-button">ENTRAR</button>
+            </form>
+        </div>
+    </div>
+</body>

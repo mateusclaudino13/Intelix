@@ -1,0 +1,157 @@
+.custom-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgba(98, 138, 76, 0.91);
+
+    font-family: "Inter";
+
+    font-size: 8px;
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 280%;
+
+    letter-spacing: 0.4px;
+
+    width: 320px;
+
+    height: 530px;
+
+
+}
+
+.card-info {
+    margin-top: 30px;
+
+
+
+}
+
+.card-info div {
+    margin-bottom: 5px;
+
+    font-size: 16px;
+
+    color: #333;
+
+    color: rgba(255, 255, 255, 0.70);
+
+}
+
+.custom-card-body {
+    padding: 20px;
+
+    height: calc(100% - 160px);
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+
+}
+
+
+
+.card-img-top {
+    width: 300px;
+    /* Largura da imagem */
+    height: 200px;
+    /* Altura da imagem */
+    object-fit: cover;
+    display: block;
+    margin: 8px auto;
+    /* Adicionando margem de 5px em todos os lados e centralizando horizontalmente */
+    border-radius: 16px;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+
+
+
+}
+
+.card-text {
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+}
+
+.badge-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.badge-danger {
+    background-color: #f44336;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* Adicionando margem inferior */
+}
+
+.card-text strong {
+    display: block;
+    margin-bottom: 5px;
+
+
+}
+
+.card-text span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.custom-card-header {
+    padding: 0;
+    margin: 0;
+    border-bottom: 0;
+    /* Removendo a borda inferior */
+
+}
+
+.cor {
+    color: #39522C;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+
+}
+
+.cheio {
+    background-color: #ff0000;
+    /* Cor de fundo para o estado "Cheio" */
+    color: white;
+    /* Cor do texto para o estado "Cheio" */
+}
+
+.vazio {
+    background: rgba(98, 138, 76, 0.91);
+    /* Cor de fundo para o estado "Vazio" */
+    color: white;
+    /* Cor do texto para o estado "Vazio" */
+}

@@ -1,0 +1,33 @@
+<section class="py-5">
+  <div class="container">
+
+    <div class="subtitulo">
+      <div class="line"></div>
+      Blog
+    </div>
+    <h1 class="text-center mb-4 ">Nossos Artigos</h1>
+
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let article of articles">
+        <div class="card h-100 card-artigos">
+          <img [src]="article.image" class="card-img-top img-fluid card-img-custom" [alt]="article.title">
+          <div class="card-body d-flex flex-column">
+            <h6 class="card-subtitle">
+              <span class="author"><mat-icon>person</mat-icon> {{ article.author }}</span>
+              <span></span>
+              <span class="date"><mat-icon>event</mat-icon> {{ article.date }}</span>
+            </h6>
+
+            <p class="card-text-artigos">{{ article.text }}</p>
+            <a href="#" class="btn cards-artigos-btn">
+              Continuar Lendo <mat-icon>arrow_forward</mat-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a href="#" class="btn btn-primary ver-todos-btn">Ver Todos <mat-icon>arrow_forward</mat-icon></a>
+    </div>
+  </div>
+</section>

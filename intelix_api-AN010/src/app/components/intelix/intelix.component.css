@@ -1,0 +1,103 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 150px;
+}
+
+.centered-card {
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 90%;
+  max-width: 1200px;
+  min-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 20px;
+
+}
+
+
+.card-content {
+  padding: 20px;
+}
+
+.intelix-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.users {
+  margin-top: 20px;
+}
+
+.user-count {
+  display: flex;
+  align-items: center;
+}
+
+.user-count img {
+  width: auto;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-button,
+.white-button {
+  flex: 1;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1.2em;
+}
+
+.green-button {
+  background-color: #628A4C;
+  color: white;
+  margin-right: 10px;
+}
+
+.green-button:hover {
+  background-color: #4d6f38;
+}
+
+.white-button {
+  background-color: white;
+  color: #628A4C;
+  border: 2px solid #628A4C;
+}
+
+.white-button:hover {
+  background-color: #628A4C;
+  color: white;
+}

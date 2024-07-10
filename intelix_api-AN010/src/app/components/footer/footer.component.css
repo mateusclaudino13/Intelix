@@ -1,0 +1,132 @@
+.footer {
+  background: rgba(98, 138, 76, 0.91);
+  padding: 10px;
+  color: #fff;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer .col-md-3 {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.footer .col-md-3:nth-child(1) {
+  flex: 2;
+}
+
+.footer .logo-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.footer .logo-section img {
+  width: 120px;
+  height: auto;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+.footer .logo-section p {
+  color: var(--Background-Color-White, #FFF);
+  font-size: 16px;
+  line-height: 1.2;
+  opacity: 0.7;
+  flex: 1;
+  max-width: 200px;
+  white-space: normal;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+}
+
+.footer .links-title,
+.footer .recursos-title,
+.footer .midias-title {
+  color: var(--Background-Color-White, #FFF);
+  font-family: "Plus Jakarta Sans";
+  margin-bottom: 45px;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  opacity: 0.7;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+  color: var(--Background-Color-White, #FFF);
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.4px;
+}
+
+.footer ul li a {
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.footer .social-icons a:hover {
+  color: #ccc;
+}
+
+.tit {
+  margin-left: 150px;
+  margin-bottom: 20px;
+  color: var(--Background-Color-White, #FFF);
+  font-family: "Plus Jakarta Sans";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.twitter-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: -12px;
+}

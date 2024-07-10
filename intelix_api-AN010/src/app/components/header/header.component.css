@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  color: #fff;
+  padding: 0;
+  color: var(--Background-Color-Black, #1A2434);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #808080;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  color: #808080;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.nav a {
+  color: #fff;
+  color: black;
+  text-decoration: none;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #EBEFF6;
+  background: var(--Background-Color-White, #FFF);
+}
+
+.search-bar input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  flex-grow: 1;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo {
+  color: none;
+}

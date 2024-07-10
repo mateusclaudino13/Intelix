@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #628A4C;
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-card {
+    background: var(--white-100, #FFF);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 30px;
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 18px;
+
+    margin: 0;
+    color: black;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    font-size: 14px;
+
+    margin-bottom: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    color: black;
+
+}
+
+.login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 100px;
+    background: #CBE1BF;
+    font-family: "Inter";
+
+}
+
+.login-form input::placeholder {
+    color: #AAA9A9;
+
+}
+
+.login-button {
+    background-color: #628A4C;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans";
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    font-size: 16px;
+}
+
+.login-button:hover {
+    border-radius: 16px;
+    background-color: #628A4C;
+    background: #ffffff;
+    color: #628A4C;
+    border: solid 2px #628A4C;
+
+
+}

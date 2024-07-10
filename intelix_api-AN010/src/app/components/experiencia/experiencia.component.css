@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: none;
+}
+
+.card-body {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.card-footer {
+  padding: 10px;
+  text-align: center;
+  border: none;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.ler-mais {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.ler-mais i {
+  margin-left: 5px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.titulo-principal {
+  color: var(--Background-Color-Black, #1A2434);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Inter";
+  margin-bottom: 10px;
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: #6e834a;
+  margin-right: 8px;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.title1 {
+  font-family: "Plus Jakarta Sans";
+  color: var(--Background-Color-Black, #1A2434);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.text1 {
+  color: var(--Background-Color-Black, #1A2434);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
+}

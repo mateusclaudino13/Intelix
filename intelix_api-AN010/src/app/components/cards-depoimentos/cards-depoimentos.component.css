@@ -1,0 +1,126 @@
+.container-depoimentos {
+  padding-top: 50px;
+  margin: 20px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.card-depoimento {
+  flex: 1;
+  width: 423px;
+  height: 281px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nome-cliente {
+  color: var(--Background-Color-Black, #1A2434);
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+}
+
+.subnome-cliente {
+  color: var(--Background-Color-Black, #1A2434);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.32px;
+  margin-bottom: 10px;
+}
+
+.texto-depoimento {
+  color: var(--Background-Color-Black, #1A2434);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+  margin: 10px 0;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.estrelas {
+  color: #FFD700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.shadow-lg {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.imagem-texto-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.texto-container {
+  margin-left: 10px;
+}
+
+.card-subtitle-dep {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.card-title-dep {
+  font-size: 16px;
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Inter";
+  margin-bottom: 10px;
+  margin-left: 100px;
+  opacity: 0.7;
+}
+
+.line {
+  width: 60px;
+  height: 5px;
+  background-color: #6e834a;
+  margin-right: 30px;
+}
